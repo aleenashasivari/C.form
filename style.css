@@ -1,0 +1,54 @@
+img {
+    height: 20px;
+    width: 20px;
+}
+
+.flex {
+    
+    display: flex;
+   align-items: center;
+
+
+}
+
+body {
+    background-color: blue;
+}
+
+#kryesori {
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 300px;
+}
+
+#bardh {
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 50px;
+   
+}
+
+#light {
+
+    
+    border-radius: 10px;
+    width: 500px;
+    color: white;
+
+}  
+
+#name {
+
+    border: 2px solid grey;
+    height: 45px;
+    
+}
+
+img:hover {
+    height: 23px;
+    width: 23px;
+    background-color: lightblue;
+    border-radius: 100%;
+}
